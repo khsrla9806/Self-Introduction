@@ -1,32 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
-    font-family: "Nanum Myeongjo";
+    font-family: "Noto Sans";
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .title-box {
-    border-bottom: 1px solid rgb(128, 123, 123);
-    border-top: 1px solid rgb(128, 123, 123);
+    border-bottom: 1px solid #c2e9fb;
+    border-top: 1px solid #c2e9fb;
     padding: 40px;
     line-height: 14px;
     text-align: center;
     font-style: italic;
     box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .subtitle-box {
     padding: 20px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(
+        to top,
+        #f3e7e9 0%,
+        #e3eeff 99%,
+        #e3eeff 100%
+    );
 }
 
 .subtitle {
-    color: rgb(104, 100, 100);
-    border-bottom: 1px solid rgb(104, 100, 100);
-    height: 55px;
+    color: rgb(78, 76, 76);
+    border-bottom: 1px solid rgb(100, 99, 99);
+    height: 60px;
     font-size: 17px;
     font-style: italic;
     padding-top: 30px;
 }
 .subtitle-content {
+    color: rgb(58, 54, 54);
     font-size: 15px;
     line-height: 24px;
     font-weight: lighter;
@@ -37,12 +50,14 @@
 }
 
 .split-name {
+    color: rgb(94, 88, 88);
     float: left;
     font-size: 16px;
     font-weight: bold;
 }
 
 .split-text {
+    color: rgb(94, 88, 88);
     float: right;
     font-size: 16px;
     font-weight: bold;
@@ -50,7 +65,8 @@
 }
 
 .split-content {
-    font-size: 14px;
+    color: rgb(85, 79, 79);
+    font-size: 13px;
     line-height: 10px;
     font-weight: lighter;
     margin-top: -20px;
@@ -60,18 +76,18 @@ footer {
     font-size: 10px;
     font-weight: lighter;
     text-align: center;
-    border-top: 3px solid black;
+    border-top: 3px solid #c2e9fb;
     padding: 10px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .image-box {
-    padding-right: 20px;
-    padding-bottom: 5px;
     text-align: right;
+    margin-top: 50px;
 }
 
 .image-icon {
     width: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(231, 225, 225, 0.1);
     margin-left: 5px;
 }

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    font-family: "Nanum Myeongjo";
+}
+
+.title-box {
+    border-bottom: 1px solid rgb(128, 123, 123);
+    border-top: 1px solid rgb(128, 123, 123);
+    padding: 40px;
+    line-height: 14px;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.subtitle-box {
+    padding: 20px;
+}
+
+.subtitle {
+    color: rgb(104, 100, 100);
+    border-bottom: 1px solid rgb(104, 100, 100);
+    height: 55px;
+    font-size: 17px;
+    font-style: italic;
+    padding-top: 30px;
+}
+.subtitle-content {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: lighter;
+}
+
+.split-box {
+    overflow: hidden;
+}
+
+.split-name {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.split-text {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.split-content {
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+footer {
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    border-top: 3px solid black;
+    padding: 10px;
+}
+
+.image-box {
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.image-icon {
+    width: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+}
